@@ -1,8 +1,19 @@
-@media handheld and (max-width: 50em), screen and (max-width: 30em) {
-	.col-2{
+@media (max-width: 500px) {
+	#etiquetas{
 		width: 100%;
 	}
 	.col-5{
 		width: 100%;
+	}
+}
+@media  (max-width: 800px) {
+	.col-2{
+		width: 33.333%;
+	}
+	#deberes{
+		width: 100%;
+	}
+	#descripcion{
+		width: 66.66%;
 	}
 }
