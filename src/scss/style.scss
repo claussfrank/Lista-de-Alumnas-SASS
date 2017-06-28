@@ -1,0 +1,72 @@
+@import'grid';
+@import'varibles';
+@import'responsive';
+
+.title{
+	color: white;
+	padding: 2% 0% 2% 1%;
+	background: $labYellow;
+	font: $title-font;
+}
+ul{
+	color: white;
+	font: $paragraph-size;
+	li{
+		background: $labGray;
+		margin: 1%;	
+		padding: 5%;	
+	}
+	.liDiferent{
+		background: $labYellow;
+	}
+}
+
+#descripcion{
+	font: $paragraph-size;
+	margin-top:2%;
+	
+	h1{
+		font: $title-font;
+		margin-top: 2%;
+	}
+	h4{
+		font: $title-font;
+		margin-top: 2%;
+	}
+	p{
+		margin-top: 2%;
+	}
+	ol{
+		margin-top: 1%;
+	}
+}
+#deberes{
+	font: $paragraph-size;
+	margin-top:2%;
+	background-color:$labGray;
+	color: white;
+	text-align: center;
+	
+	h2{
+		font: $title-font;
+		margin-top: 2%;
+	}
+	h4{
+		font: $title-font;
+		margin-top: 2%;
+	}
+	p{
+		margin-top: 2%;
+	}
+	ol{
+		margin-top: 1%;
+	}
+}
+footer{
+	font: $paragraph-size;
+	margin-top: 2%;
+	padding: 4%;
+	background-color:$labGray;
+	color: white;
+	text-align: center;
+}
